@@ -1,4 +1,4 @@
-import java.util.Collections;
+//Leetcode solution
 
 /**
  * Definition for a binary tree node.
@@ -15,7 +15,7 @@ import java.util.Collections;
  *     }
  * }
  */
-public class Solution {
+ class Solution {
     public List<Integer> rightSideView(TreeNode root) {
         if(root == null)
             return Collections.emptyList();
